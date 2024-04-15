@@ -27,6 +27,9 @@ PUSH_TOKEN = os.environ.get("PUSHPLUS_KEY")
 '''
 AMAP_KEY = os.environ.get("GAODE_KEY")
 
+AMAP_KEY = '3e0bb8e614c9b02a6b93126812d2d604'
+
+GAODE_KEY = '3e0bb8e614c9b02a6b93126812d2d604'
 
 '''
 *********** 个人账户认证配置 ***********
@@ -47,6 +50,7 @@ ps:本来是写了判断是否配置密钥，可以自由选择明文保存的�
 '''
 PRIVATE_AES_KEY = os.environ.get("PRIVATE_AES_KEY")
 
+PRIVATE_AES_KEY = '9192939495969798'
 
 '''
 *********** 预约规则配置 ************
