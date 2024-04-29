@@ -48,6 +48,7 @@ def get_location():
 
 if __name__ == '__main__':
 
+    print("Start Login:")
     aes_key = privateCrypt.get_aes_key()
 
     while 1:
