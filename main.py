@@ -35,6 +35,7 @@ s_title = '茅台预约成功'
 s_content = ""
 
 
+
 for section in configs.sections():
     if (configs.get(section, 'enddate') != 9) and (TODAY > configs.get(section, 'enddate')):
         continue
